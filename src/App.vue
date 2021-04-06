@@ -1,17 +1,16 @@
 <template>
   <div id="app">
-    <img alt="Vue logo" src="./assets/logo.png">
-    <HelloWorld msg="Welcome to Your Vue.js App"/>
+    <catagories-tree msg="Дерево категорий"/>
   </div>
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
+import catagoriesTree from './components/categoriesTree.vue'
 
 export default {
   name: 'App',
   components: {
-    HelloWorld
+    catagoriesTree
   }
 }
 </script>
